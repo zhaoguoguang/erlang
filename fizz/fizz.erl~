@@ -65,7 +65,7 @@ or_([H|T])->      % Çë¿´£¬ruleºÍor_¶¼ÊÇÒ»¸öÊäÈëÎªN£¬Êä³öÎª{true,Acc}»òfalseµÄº¯Ê
 		false      -> (or_(T))(N)
 	    end
 	end. 
-s
+
 and_(L)->
  	myAnd(L,fun(A,B)-> string:concat(A,B) end, ""). 
 
